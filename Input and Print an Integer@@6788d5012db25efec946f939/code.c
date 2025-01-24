@@ -1,9 +1,8 @@
-#include <stdio.h>
+#include<stdio.h>
 
 int main(){
     int x;
     sacnf("%d",x);
     printf("You entered: %d",x);
     return 0;
-    
 }
