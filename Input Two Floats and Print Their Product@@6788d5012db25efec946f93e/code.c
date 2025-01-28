@@ -3,7 +3,7 @@ int main(){
     flaot x,y,z;
     scanf("%f%f",&x,&y);
     z=x*y;
-    printf("Product: %f/n",z);
+    printf("Product: %d/n",z);
     rteurn 0;
 
 }
