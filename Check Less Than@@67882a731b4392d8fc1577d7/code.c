@@ -3,7 +3,7 @@ int main(){
     float x,y;
     scanf("%f %f",&x,&y);
     if(x>y){
-        printf("Flase");
+        printf("False");
     }
     else{
         printf("True");
