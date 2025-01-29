@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    int x,y;
-    scanf("%d %d",&x,&y);
+    float x,y;
+    scanf("%f %f",&x,&y);
     if(x>y){
         printf("Flase");
     }
