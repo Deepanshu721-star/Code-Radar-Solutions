@@ -4,6 +4,6 @@ int main(){
     scanf("%f %f",&x,&y);
     z=x*y;
     printf("Product: %.2f",z);
-    rturn 0;
+    return 0;
 
 }
