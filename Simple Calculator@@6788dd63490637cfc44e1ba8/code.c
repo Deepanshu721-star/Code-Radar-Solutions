@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
     int a,b;
-    scanf("%d %d",&a,&b);
     char op;
+    scanf("%d %d",&a,&b);
     scanf("%c",&op);
     if(op=='+'){
         printf("%d",a+b);
@@ -10,8 +10,11 @@ int main(){
         printf("%d",a-b);
     }else if(op=='*'){
         printf("%d",a*b);
-    }else{
+    }else if(op=='/'){
         printf("%d",a/b);
+    }
+    else{
+        printf("Invalid input");
     }
     return 0;
 }
