@@ -1,8 +1,10 @@
 #include<stdio.h>
 #include <ctype.h>
+
 int main(){
     int a,b;
     char op;
+    
     scanf("%d %d",&a,&b);
     scanf(" %c",&op);
     if(op=='+'){
