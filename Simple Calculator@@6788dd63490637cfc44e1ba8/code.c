@@ -16,7 +16,7 @@ int main(){
     }else if(op=='/'){
         printf("%d",a/b);
     }else{
-        printf("Invalid input");
+        printf("%c",op);
     }
     return 0;
 }
