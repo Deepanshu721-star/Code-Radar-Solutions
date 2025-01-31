@@ -1,10 +1,8 @@
 #include<stdio.h>
-#include <ctype.h>
 
 int main(){
     char Light;
     scanf("%c",&Light);
-    Light=toupper(Light);
     if(Light=='A'){
         printf("Excellent");
     }else if(Light=='B'){
