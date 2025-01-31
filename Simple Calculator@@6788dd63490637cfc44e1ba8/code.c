@@ -10,7 +10,7 @@ int main(){
     c=a+b;
     d=a-b;
     e=a*b;
-    f=a\b;
+    f=a/b;
     if(op=='+'){
         printf("%d",c);
     }else if(op=='-'){
