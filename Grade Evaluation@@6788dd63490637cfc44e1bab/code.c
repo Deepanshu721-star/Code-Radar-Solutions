@@ -4,10 +4,11 @@
 int main(){
     char Light;
     scanf("%c",&Light);
+    //Light=toupper(Light);
     if(Light=='A'){
         printf("Excellent");
     }else if(Light=='B'){
-        printf("Good")
+        printf("Good");
     }else if(Light=='C'){
         printf("Average");
     }else if(Light=='D'){
