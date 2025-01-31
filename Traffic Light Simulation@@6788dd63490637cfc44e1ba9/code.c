@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include <ctype.h>
+// #include <ctype.h>
 
 int main(){
     char Light;
@@ -13,4 +13,5 @@ int main(){
     }else{
         printf("Invalid iput");
     }
+    return 0;
 }
