@@ -2,10 +2,13 @@
 int main(){
     int x;
     scanf("%d",&x);
-    if(x<=0){
+    switch(x>0){
+        case 0:
         printf("Freezing\n");
-    }else{
-        printf("above Freezing\n");
+        break;
+        case 1:
+        printf("Above Freezing\n");
+        break;
     }
     return 0;
 }
