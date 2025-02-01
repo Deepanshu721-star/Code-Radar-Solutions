@@ -7,7 +7,7 @@ int main(){
     }else{
         printf("above Freezing\n");
     }else{
-        printf("INvalid")
+        printf("INvalid");
     }
     return 0;
 }
