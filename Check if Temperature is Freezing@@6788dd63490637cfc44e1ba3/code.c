@@ -3,9 +3,9 @@ int main(){
     int x;
     scanf("%d",&x);
     if(x<=0){
-        printf("Freezing");
+        printf("Freezing\n");
     }else{
-        printf("above Freezing");
+        printf("above Freezing\n");
     }
     return 0;
 }
